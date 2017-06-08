@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					0B17D6861EE94ED000FAA178 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 74K95T283C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74K95T283C;
 				INFOPLIST_FILE = LABABK_Warehouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LABABK-Warehouse";
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74K95T283C;
 				INFOPLIST_FILE = LABABK_Warehouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LABABK-Warehouse";
