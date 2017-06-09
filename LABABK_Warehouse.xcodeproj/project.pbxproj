@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0B17D68B1EE94ED000FAA178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B17D68A1EE94ED000FAA178 /* AppDelegate.swift */; };
-		0B17D68D1EE94ED000FAA178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B17D68C1EE94ED000FAA178 /* ViewController.swift */; };
 		0B17D6901EE94ED000FAA178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B17D68E1EE94ED000FAA178 /* Main.storyboard */; };
 		0B17D6921EE94ED000FAA178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B17D6911EE94ED000FAA178 /* Assets.xcassets */; };
 		0B17D6951EE94ED000FAA178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B17D6931EE94ED000FAA178 /* LaunchScreen.storyboard */; };
+		0B17D69D1EE958B700FAA178 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B17D69C1EE958B700FAA178 /* LoginVC.swift */; };
+		0B17D69F1EE9594600FAA178 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B17D69E1EE9594600FAA178 /* GetStartedVC.swift */; };
+		0BA4C9911EEA7ED700F57B00 /* SourceSansPro-Bold_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4C98D1EEA7ED700F57B00 /* SourceSansPro-Bold_1.otf */; };
+		0BA4C9921EEA7ED700F57B00 /* SourceSansPro-Light_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4C98E1EEA7ED700F57B00 /* SourceSansPro-Light_1.otf */; };
+		0BA4C9931EEA7ED700F57B00 /* SourceSansPro-Regular_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4C98F1EEA7ED700F57B00 /* SourceSansPro-Regular_1.otf */; };
+		0BA4C9941EEA7ED700F57B00 /* SourceSansPro-Semibold_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4C9901EEA7ED700F57B00 /* SourceSansPro-Semibold_1.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B17D6871EE94ED000FAA178 /* LABABK_Warehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LABABK_Warehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B17D68A1EE94ED000FAA178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B17D68C1EE94ED000FAA178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B17D68F1EE94ED000FAA178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B17D6911EE94ED000FAA178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B17D6941EE94ED000FAA178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B17D6961EE94ED000FAA178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B17D69C1EE958B700FAA178 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ../LoginVC.swift; sourceTree = "<group>"; };
+		0B17D69E1EE9594600FAA178 /* GetStartedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
+		0BA4C98D1EEA7ED700F57B00 /* SourceSansPro-Bold_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold_1.otf"; sourceTree = "<group>"; };
+		0BA4C98E1EEA7ED700F57B00 /* SourceSansPro-Light_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light_1.otf"; sourceTree = "<group>"; };
+		0BA4C98F1EEA7ED700F57B00 /* SourceSansPro-Regular_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular_1.otf"; sourceTree = "<group>"; };
+		0BA4C9901EEA7ED700F57B00 /* SourceSansPro-Semibold_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold_1.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		0B17D6891EE94ED000FAA178 /* LABABK_Warehouse */ = {
 			isa = PBXGroup;
 			children = (
+				0BA4C98C1EEA7ED700F57B00 /* Fonts */,
+				0B17D69C1EE958B700FAA178 /* LoginVC.swift */,
+				0B17D69E1EE9594600FAA178 /* GetStartedVC.swift */,
 				0B17D68A1EE94ED000FAA178 /* AppDelegate.swift */,
-				0B17D68C1EE94ED000FAA178 /* ViewController.swift */,
 				0B17D68E1EE94ED000FAA178 /* Main.storyboard */,
 				0B17D6911EE94ED000FAA178 /* Assets.xcassets */,
 				0B17D6931EE94ED000FAA178 /* LaunchScreen.storyboard */,
 				0B17D6961EE94ED000FAA178 /* Info.plist */,
 			);
 			path = LABABK_Warehouse;
+			sourceTree = "<group>";
+		};
+		0BA4C98C1EEA7ED700F57B00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0BA4C98D1EEA7ED700F57B00 /* SourceSansPro-Bold_1.otf */,
+				0BA4C98E1EEA7ED700F57B00 /* SourceSansPro-Light_1.otf */,
+				0BA4C98F1EEA7ED700F57B00 /* SourceSansPro-Regular_1.otf */,
+				0BA4C9901EEA7ED700F57B00 /* SourceSansPro-Semibold_1.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA4C9911EEA7ED700F57B00 /* SourceSansPro-Bold_1.otf in Resources */,
 				0B17D6951EE94ED000FAA178 /* LaunchScreen.storyboard in Resources */,
+				0BA4C9931EEA7ED700F57B00 /* SourceSansPro-Regular_1.otf in Resources */,
+				0BA4C9941EEA7ED700F57B00 /* SourceSansPro-Semibold_1.otf in Resources */,
 				0B17D6921EE94ED000FAA178 /* Assets.xcassets in Resources */,
 				0B17D6901EE94ED000FAA178 /* Main.storyboard in Resources */,
+				0BA4C9921EEA7ED700F57B00 /* SourceSansPro-Light_1.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B17D68D1EE94ED000FAA178 /* ViewController.swift in Sources */,
+				0B17D69F1EE9594600FAA178 /* GetStartedVC.swift in Sources */,
+				0B17D69D1EE958B700FAA178 /* LoginVC.swift in Sources */,
 				0B17D68B1EE94ED000FAA178 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +332,7 @@
 				0B17D69B1EE94ED000FAA178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
